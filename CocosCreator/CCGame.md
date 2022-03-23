@@ -15,6 +15,8 @@ _本文基于 Cocos Creator 2.4.8 撰写_
 >
 >管理持久化节点`_persistRootNodes`,在切换场景的时候保留持久化节点,在重启的时候销毁持久化节点
 
+## 方法
+
 ### run
 
 `cc.game.run` 函数内指定了引擎配置和 `onStart` 回调并触发 `cc.game.prepare()` 函数。
